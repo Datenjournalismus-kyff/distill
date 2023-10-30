@@ -1,6 +1,6 @@
 ---
 title: "Datenjournalismus"
-image: ""
+image: "images/test.jpg"
 links:
   - label: LinkedIn
     url: "https://linkedin.com/"
