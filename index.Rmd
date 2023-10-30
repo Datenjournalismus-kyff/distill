@@ -1,5 +1,5 @@
 ---
-title: "M. Hense"
+title: "Datenjournalismus"
 image: ""
 links:
   - label: LinkedIn
