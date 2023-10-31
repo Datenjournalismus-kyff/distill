@@ -1,5 +1,5 @@
 ---
-title: "Start"
+title: "Willkommen"
 description: |
   A new article created using the Distill format.
 author:

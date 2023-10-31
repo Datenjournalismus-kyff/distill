@@ -30,7 +30,7 @@
     },
     {
       "path": "start.html",
-      "title": "Start",
+      "title": "Willkommen",
       "description": "A new article created using the Distill format.\n",
       "author": [
         {
@@ -40,7 +40,7 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\nContents\nÜbersicht\n\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\nÜbersicht\n\n\n\n",
-      "last_modified": "2023-10-31T19:41:17+01:00"
+      "last_modified": "2023-10-31T20:02:49+01:00"
     }
   ],
   "collections": ["daten/daten.json", "rdaten/rdaten.json"]
