@@ -29,7 +29,11 @@ df <- data.frame(long = c(11.101),
                  label = c('Bad Fankenhausen'))
                 
 coordinates(df) <- ~ long + lat
-autoplot(df, p = p, colour = 'red', size = 1)
+class(df)
+
+```
+```{r}
+autoplot(df, p = p, colour = 'red', size = 10)
 ```
 
 ```{r}

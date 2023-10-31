@@ -7,7 +7,7 @@ navbar:
   right:
     - text: "Start"
       href: start.html
-    - text: "About"
+    - text: "Rechtliche Hinweise (Disclaimer)"
       href: about.html
     - text: "Artikel"
       href: artikel.html
