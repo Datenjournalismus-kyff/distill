@@ -1,7 +1,7 @@
 [
   {
     "path": "rdaten/2023-10-31-testdaten/",
-    "title": "Testdaten",
+    "title": "Plot a Map in R",
     "description": "A short description of the post.",
     "author": [
       {
@@ -11,9 +11,9 @@
     ],
     "date": "2023-10-31",
     "categories": [],
-    "contents": "\n\n\n\n",
+    "contents": "\n\n\nlibrary(tidyverse)\nlibrary(leaflet)\n\nleaflet() %>%\n  addTiles() %>%\n  setView(lat = 51.356, \n          lng = 11.101,  \n          zoom = 10)\n\n\n\n\n\n\n",
     "preview": {},
-    "last_modified": "2023-10-31T10:53:15+01:00",
-    "input_file": {}
+    "last_modified": "2023-10-31T11:06:13+01:00",
+    "input_file": "testdaten.knit.md"
   }
 ]
