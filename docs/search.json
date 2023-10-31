@@ -6,21 +6,21 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\nin Bearbeitung\n\n\n\n",
-      "last_modified": "2023-10-31T10:22:25+01:00"
+      "last_modified": "2023-10-31T10:44:59+01:00"
     },
     {
-      "path": "artikel.html",
-      "title": "Artikel",
+      "path": "daten.html",
+      "title": "Daten",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2023-10-31T10:22:26+01:00"
+      "last_modified": "2023-10-31T10:45:00+01:00"
     },
     {
       "path": "index.html",
       "title": "Datenvisualisierung mit R",
       "author": [],
       "contents": "\n\n          \n          \n          Datenverarbeitung und Programmierung in R\n          \n          \n          Start\n          About\n          \n          \n          Artikel\n           \n          ▾\n          \n          \n          Daten\n          R\n          \n          \n          ☰\n          \n          \n      \n        \n          \n            \n              \n            \n              Datenvisualisierung mit R\n            \n            \n              \n                \n                    \n                      \n                         LinkedIn\n                      \n                    \n                  \n                                    \n                    \n                      \n                         Twitter\n                      \n                    \n                  \n                                    \n                    \n                      \n                         GitHub\n                      \n                    \n                  \n                                    \n                    \n                      \n                         Email\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            \n            Bio\n            \n            \n            Education\n            \n            \n            Experience\n            \n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Datenvisualisierung mit R\n            \n            \n              \n                \n                                    \n                    \n                       LinkedIn\n                    \n                  \n                                    \n                    \n                       Twitter\n                    \n                  \n                                    \n                    \n                       GitHub\n                    \n                  \n                                    \n                    \n                       Email\n                    \n                  \n                                  \n              \n            \n            \n              \n              Bio\n              \n              \n              Education\n              \n              \n              Experience\n              \n            \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2023-10-31T10:22:28+01:00"
+      "last_modified": "2023-10-31T10:45:01+01:00"
     },
     {
       "path": "start.html",
@@ -34,8 +34,8 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\nContents\nÜbersicht\n\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\nÜbersicht\n\n\n\n",
-      "last_modified": "2023-10-31T10:22:28+01:00"
+      "last_modified": "2023-10-31T10:45:02+01:00"
     }
   ],
-  "collections": ["artikel/artikel.json"]
+  "collections": ["daten/daten.json"]
 }
