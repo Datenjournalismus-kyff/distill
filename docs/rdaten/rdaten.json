@@ -2,7 +2,7 @@
   {
     "path": "rdaten/2023-10-31-testdaten/",
     "title": "Plot a Map in R",
-    "description": "A short description of the post.",
+    "description": "Verschiedene Möglichkeiten der Kartendarstellungen",
     "author": [
       {
         "name": "M. Hense",
@@ -11,9 +11,9 @@
     ],
     "date": "2023-10-31",
     "categories": [],
-    "contents": "\n\n\nlibrary(tidyverse)\nlibrary(leaflet)\n\nleaflet() %>%\n  addTiles() %>%\n  setView(lat = 51.356, \n          lng = 11.101,  \n          zoom = 10)\n\n\n\n\n\n\n",
-    "preview": {},
-    "last_modified": "2023-10-31T11:06:13+01:00",
+    "contents": "\n\n\nlibrary(leaflet) \nleaflet() %>%  \n addTiles() %>%  \n addMarkers(lng = 11.101, lat = 51.356, \n            popup = \"Standort\")\n\n\n\n\n\nlibrary(mapview) \n\n# Create example data of points \nlng = c(11.101,10.871 , 11.411) \nlat = c(51.356, 51.369, 51.266) \nnames = c(\"Bad Frankenhausen\", \"Sondershausen\", \"Wiehe\") \n\n# Create a data frame with the point data \npoints_df = data.frame(lng, lat, names) \n\n# Convert the data frame to a spatial points data frame \npoints_sdf = sf::st_as_sf(points_df, \n        coords = c(\"lng\", \"lat\"), crs = 4470) \n\n# Plot the points on a map \nmapview(points_sdf, label = points_sdf$names)\n\n\n\n\n\n# Load required packages\nlibrary(ggplot2)\nlibrary(sf)\nlibrary(maps)\n\n# Load and plot world map data - oder world ohne Landesangabe\nworld <- map_data(\"world2\", \"Germany\")\n\nggplot(data = world, aes(x = long, y = lat, group = group)) +\n# Farbe aendern  \n  geom_polygon(fill = \"grey\", color = \"grey1\") +\n# aendert die Plotgröße  \n  coord_fixed(ratio = 1) +\nlabs(title = \"Deutschland\")\n\n\n\n\n\nlibrary(ggfortify)\nde <-  map('world2', 'Germany', plot = FALSE, fill = TRUE)\nautoplot(de)\n\n\n\n\n\nde1 <- autoplot(de, geom = 'polygon', fill = 'subregion') + \n  theme(legend.position=\"none\")\nde1\n\n\n\n\n\ncities <- get('world.cities')\ncities <- cities[cities$country.etc == 'Germany', ]\nhead(cities)\n\n      name country.etc    pop   lat  long capital\n139 Aachen     Germany 273472 50.77  6.09       0\n145  Aalen     Germany  67188 48.85 10.09       0\n320 Achern     Germany  24637 48.63  8.08       0\n322  Achim     Germany  30109 53.04  9.01       0\n590  Ahaus     Germany  38293 52.09  7.01       0\n597  Ahlen     Germany  55265 51.77  7.88       0\n\n\n\n# Städte und Inseln \nde1 + geom_point(data = cities, aes(x = long, y = lat),\n               colour = 'blue', size = 0.1)\n\n\n\n\n\n\n",
+    "preview": "rdaten/2023-10-31-testdaten/testdaten_files/figure-html5/unnamed-chunk-3-1.png",
+    "last_modified": "2023-10-31T16:58:24+01:00",
     "input_file": {}
   }
 ]

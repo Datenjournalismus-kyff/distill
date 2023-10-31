@@ -90,7 +90,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_meta_tags-->
 <title>Datenverarbeitung und Programmierung in R: Plot a Map in R</title>
 
-<meta property="description" itemprop="description" content="A short description of the post."/>
+<meta property="description" itemprop="description" content="Verschiedene Möglichkeiten der Kartendarstellungen"/>
 
 
 <!--  https://schema.org/Article -->
@@ -101,25 +101,25 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
 <meta property="og:title" content="Datenverarbeitung und Programmierung in R: Plot a Map in R"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="A short description of the post."/>
+<meta property="og:description" content="Verschiedene Möglichkeiten der Kartendarstellungen"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="Datenverarbeitung und Programmierung in R"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
 <meta property="twitter:title" content="Datenverarbeitung und Programmierung in R: Plot a Map in R"/>
-<meta property="twitter:description" content="A short description of the post."/>
+<meta property="twitter:description" content="Verschiedene Möglichkeiten der Kartendarstellungen"/>
 
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","editor_options"]}},"value":[{"type":"character","attributes":{},"value":["Plot a Map in R"]},{"type":"character","attributes":{},"value":["A short description of the post."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["M. Hense"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]},{"type":"character","attributes":{},"value":["2023-10-31"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["markdown"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["wrap"]}},"value":[{"type":"integer","attributes":{},"value":[72]}]}]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","editor_options"]}},"value":[{"type":"character","attributes":{},"value":["Plot a Map in R"]},{"type":"character","attributes":{},"value":["Verschiedene Möglichkeiten der Kartendarstellungen"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["M. Hense"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]},{"type":"character","attributes":{},"value":["2023-10-31"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["markdown"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["wrap"]}},"value":[{"type":"integer","attributes":{},"value":[72]}]}]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["testdaten_files/anchor-4.2.2/anchor.min.js","testdaten_files/bowser-1.9.3/bowser.min.js","testdaten_files/distill-2.2.21/template.v2.js","testdaten_files/header-attrs-2.25/header-attrs.js","testdaten_files/htmlwidgets-1.6.2/htmlwidgets.js","testdaten_files/jquery-3.6.0/jquery-3.6.0.js","testdaten_files/jquery-3.6.0/jquery-3.6.0.min.js","testdaten_files/jquery-3.6.0/jquery-3.6.0.min.map","testdaten_files/leaflet-1.3.1/images/layers-2x.png","testdaten_files/leaflet-1.3.1/images/layers.png","testdaten_files/leaflet-1.3.1/images/marker-icon-2x.png","testdaten_files/leaflet-1.3.1/images/marker-icon.png","testdaten_files/leaflet-1.3.1/images/marker-shadow.png","testdaten_files/leaflet-1.3.1/leaflet.css","testdaten_files/leaflet-1.3.1/leaflet.js","testdaten_files/leaflet-binding-2.2.0/leaflet.js","testdaten_files/leafletfix-1.0.0/leafletfix.css","testdaten_files/popper-2.6.0/popper.min.js","testdaten_files/proj4-2.6.2/proj4.min.js","testdaten_files/Proj4Leaflet-1.0.1/proj4leaflet.js","testdaten_files/rstudio_leaflet-1.3.1/images/1px.png","testdaten_files/rstudio_leaflet-1.3.1/rstudio_leaflet.css","testdaten_files/tippy-6.2.7/tippy-bundle.umd.min.js","testdaten_files/tippy-6.2.7/tippy-light-border.css","testdaten_files/tippy-6.2.7/tippy.css","testdaten_files/tippy-6.2.7/tippy.umd.min.js","testdaten_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["testdaten_files/anchor-4.2.2/anchor.min.js","testdaten_files/bowser-1.9.3/bowser.min.js","testdaten_files/clipboard-0.0.1/setClipboardText.js","testdaten_files/distill-2.2.21/template.v2.js","testdaten_files/figure-html5/unnamed-chunk-3-1.png","testdaten_files/figure-html5/unnamed-chunk-4-1.png","testdaten_files/figure-html5/unnamed-chunk-5-1.png","testdaten_files/figure-html5/unnamed-chunk-7-1.png","testdaten_files/header-attrs-2.25/header-attrs.js","testdaten_files/HomeButton-0.0.1/easy-button-src.min.js","testdaten_files/HomeButton-0.0.1/glyphicons-21-home.png","testdaten_files/HomeButton-0.0.1/home-button.css","testdaten_files/HomeButton-0.0.1/home-button.js","testdaten_files/HomeButton-0.0.1/LICENSE","testdaten_files/htmlwidgets-1.6.2/htmlwidgets.js","testdaten_files/jquery-3.6.0/jquery-3.6.0.js","testdaten_files/jquery-3.6.0/jquery-3.6.0.min.js","testdaten_files/jquery-3.6.0/jquery-3.6.0.min.map","testdaten_files/leaflet-1.3.1/images/layers-2x.png","testdaten_files/leaflet-1.3.1/images/layers.png","testdaten_files/leaflet-1.3.1/images/marker-icon-2x.png","testdaten_files/leaflet-1.3.1/images/marker-icon.png","testdaten_files/leaflet-1.3.1/images/marker-shadow.png","testdaten_files/leaflet-1.3.1/leaflet.css","testdaten_files/leaflet-1.3.1/leaflet.js","testdaten_files/leaflet-binding-2.2.0/leaflet.js","testdaten_files/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js","testdaten_files/leaflet-providers-plugin-2.2.0/leaflet-providers-plugin.js","testdaten_files/leafletfix-1.0.0/leafletfix.css","testdaten_files/mapviewCSS-0.0.1/mapview-popup.css","testdaten_files/mapviewCSS-0.0.1/mapview.css","testdaten_files/popper-2.6.0/popper.min.js","testdaten_files/proj4-2.6.2/proj4.min.js","testdaten_files/Proj4Leaflet-1.0.1/proj4leaflet.js","testdaten_files/rstudio_leaflet-1.3.1/images/1px.png","testdaten_files/rstudio_leaflet-1.3.1/rstudio_leaflet.css","testdaten_files/tippy-6.2.7/tippy-bundle.umd.min.js","testdaten_files/tippy-6.2.7/tippy-light-border.css","testdaten_files/tippy-6.2.7/tippy.css","testdaten_files/tippy-6.2.7/tippy.umd.min.js","testdaten_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2117,6 +2117,14 @@ document.addEventListener('DOMContentLoaded', function() {
   <script src="../../site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
   <link href="../../site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
   <script src="../../site_libs/leaflet-binding-2.2.0/leaflet.js"></script>
+  <script src="../../site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
+  <script src="../../site_libs/leaflet-providers-plugin-2.2.0/leaflet-providers-plugin.js"></script>
+  <link href="../../site_libs/HomeButton-0.0.1/home-button.css" rel="stylesheet" />
+  <script src="../../site_libs/HomeButton-0.0.1/home-button.js"></script>
+  <script src="../../site_libs/HomeButton-0.0.1/easy-button-src.min.js"></script>
+  <script src="../../site_libs/clipboard-0.0.1/setClipboardText.js"></script>
+  <link href="../../site_libs/mapviewCSS-0.0.1/mapview-popup.css" rel="stylesheet" />
+  <link href="../../site_libs/mapviewCSS-0.0.1/mapview.css" rel="stylesheet" />
   <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="../../site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2136,7 +2144,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Plot a Map in R","description":"A short description of the post.","authors":[{"author":"M. Hense","authorURL":{},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2023-10-31T00:00:00.000+01:00","citationText":"Hense, 2023"}
+{"title":"Plot a Map in R","description":"Verschiedene Möglichkeiten der Kartendarstellungen","authors":[{"author":"M. Hense","authorURL":{},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2023-10-31T00:00:00.000+01:00","citationText":"Hense, 2023"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2174,7 +2182,7 @@ Artikel
 
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>A short description of the post.</p></p>
+<p><p>Verschiedene Möglichkeiten der Kartendarstellungen</p></p>
 </div>
 
 <div class="d-byline">
@@ -2186,19 +2194,95 @@ Artikel
 <div class="d-article">
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://tidyverse.tidyverse.org'>tidyverse</a></span><span class='op'>)</span></span>
-<span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://rstudio.github.io/leaflet/'>leaflet</a></span><span class='op'>)</span></span>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://rstudio.github.io/leaflet/'>leaflet</a></span><span class='op'>)</span> </span>
+<span><span class='fu'><a href='https://rdrr.io/pkg/leaflet/man/leaflet.html'>leaflet</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span>  </span>
+<span> <span class='fu'><a href='https://rdrr.io/pkg/leaflet/man/map-layers.html'>addTiles</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span>  </span>
+<span> <span class='fu'><a href='https://rdrr.io/pkg/leaflet/man/map-layers.html'>addMarkers</a></span><span class='op'>(</span>lng <span class='op'>=</span> <span class='fl'>11.101</span>, lat <span class='op'>=</span> <span class='fl'>51.356</span>, </span>
+<span>            popup <span class='op'>=</span> <span class='st'>"Standort"</span><span class='op'>)</span></span></code></pre>
+</div>
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-98325a467d7ee22bf9cc" style="width:624px;height:384px;"></div>
+<script type="application/json" data-for="htmlwidget-98325a467d7ee22bf9cc">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[51.356,11.101,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Standort",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[51.356,51.356],"lng":[11.101,11.101]}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/r-spatial/mapview'>mapview</a></span><span class='op'>)</span> </span>
 <span></span>
-<span><span class='fu'><a href='https://rdrr.io/pkg/leaflet/man/leaflet.html'>leaflet</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span></span>
-<span>  <span class='fu'><a href='https://rdrr.io/pkg/leaflet/man/map-layers.html'>addTiles</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span></span>
-<span>  <span class='fu'><a href='https://rdrr.io/pkg/leaflet/man/map-methods.html'>setView</a></span><span class='op'>(</span>lat <span class='op'>=</span> <span class='fl'>51.356</span>, </span>
-<span>          lng <span class='op'>=</span> <span class='fl'>11.101</span>,  </span>
-<span>          zoom <span class='op'>=</span> <span class='fl'>10</span><span class='op'>)</span></span></code></pre>
+<span><span class='co'># Create example data of points </span></span>
+<span><span class='va'>lng</span> <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>11.101</span>,<span class='fl'>10.871</span> , <span class='fl'>11.411</span><span class='op'>)</span> </span>
+<span><span class='va'>lat</span> <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>51.356</span>, <span class='fl'>51.369</span>, <span class='fl'>51.266</span><span class='op'>)</span> </span>
+<span><span class='va'>names</span> <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"Bad Frankenhausen"</span>, <span class='st'>"Sondershausen"</span>, <span class='st'>"Wiehe"</span><span class='op'>)</span> </span>
+<span></span>
+<span><span class='co'># Create a data frame with the point data </span></span>
+<span><span class='va'>points_df</span> <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a></span><span class='op'>(</span><span class='va'>lng</span>, <span class='va'>lat</span>, <span class='va'>names</span><span class='op'>)</span> </span>
+<span></span>
+<span><span class='co'># Convert the data frame to a spatial points data frame </span></span>
+<span><span class='va'>points_sdf</span> <span class='op'>=</span> <span class='fu'>sf</span><span class='fu'>::</span><span class='fu'><a href='https://r-spatial.github.io/sf/reference/st_as_sf.html'>st_as_sf</a></span><span class='op'>(</span><span class='va'>points_df</span>, </span>
+<span>        coords <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"lng"</span>, <span class='st'>"lat"</span><span class='op'>)</span>, crs <span class='op'>=</span> <span class='fl'>4470</span><span class='op'>)</span> </span>
+<span></span>
+<span><span class='co'># Plot the points on a map </span></span>
+<span><span class='fu'><a href='https://rdrr.io/pkg/mapview/man/mapView.html'>mapview</a></span><span class='op'>(</span><span class='va'>points_sdf</span>, label <span class='op'>=</span> <span class='va'>points_sdf</span><span class='op'>$</span><span class='va'>names</span><span class='op'>)</span></span></code></pre>
 </div>
-<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-1a3314b7a3fb77070b60" style="width:624px;height:384px;"></div>
-<script type="application/json" data-for="htmlwidget-1a3314b7a3fb77070b60">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]}],"setView":[[51.356,11.101],10,[]]},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-60a35fa88ac06bf58f85" style="width:624px;height:384px;"></div>
+<script type="application/json" data-for="htmlwidget-60a35fa88ac06bf58f85">{"x":{"options":{"minZoom":1,"maxZoom":52,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"preferCanvas":false,"bounceAtZoomLimits":false,"maxBounds":[[[-90,-370]],[[90,370]]]},"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron","CartoDB.Positron","CartoDB.Positron",{"errorTileUrl":"","noWrap":false,"detectRetina":false,"pane":"tilePane"}]},{"method":"addProviderTiles","args":["CartoDB.DarkMatter","CartoDB.DarkMatter","CartoDB.DarkMatter",{"errorTileUrl":"","noWrap":false,"detectRetina":false,"pane":"tilePane"}]},{"method":"addProviderTiles","args":["OpenStreetMap","OpenStreetMap","OpenStreetMap",{"errorTileUrl":"","noWrap":false,"detectRetina":false,"pane":"tilePane"}]},{"method":"addProviderTiles","args":["Esri.WorldImagery","Esri.WorldImagery","Esri.WorldImagery",{"errorTileUrl":"","noWrap":false,"detectRetina":false,"pane":"tilePane"}]},{"method":"addProviderTiles","args":["OpenTopoMap","OpenTopoMap","OpenTopoMap",{"errorTileUrl":"","noWrap":false,"detectRetina":false,"pane":"tilePane"}]},{"method":"createMapPane","args":["point",440]},{"method":"addCircleMarkers","args":[[51.356,51.369,51.266],[11.101,10.871,11.411],6,null,"points_sdf",{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"pane":"point","stroke":true,"color":"#333333","weight":1,"opacity":[0.9,0.9,0.9],"fill":true,"fillColor":["#4B0055","#009B95","#FDE333"],"fillOpacity":[0.6,0.6,0.6]},null,null,["<div class='scrollableContainer'><table class=mapview-popup id='popup'><tr class='coord'><td><\/td><th><b>Feature ID&emsp;<\/b><\/th><td>1&emsp;<\/td><\/tr><tr><td>1<\/td><th>names&emsp;<\/th><td>Bad Frankenhausen&emsp;<\/td><\/tr><tr><td>2<\/td><th>geometry&emsp;<\/th><td>sfc_POINT&emsp;<\/td><\/tr><\/table><\/div>","<div class='scrollableContainer'><table class=mapview-popup id='popup'><tr class='coord'><td><\/td><th><b>Feature ID&emsp;<\/b><\/th><td>2&emsp;<\/td><\/tr><tr><td>1<\/td><th>names&emsp;<\/th><td>Sondershausen&emsp;<\/td><\/tr><tr><td>2<\/td><th>geometry&emsp;<\/th><td>sfc_POINT&emsp;<\/td><\/tr><\/table><\/div>","<div class='scrollableContainer'><table class=mapview-popup id='popup'><tr class='coord'><td><\/td><th><b>Feature ID&emsp;<\/b><\/th><td>3&emsp;<\/td><\/tr><tr><td>1<\/td><th>names&emsp;<\/th><td>Wiehe&emsp;<\/td><\/tr><tr><td>2<\/td><th>geometry&emsp;<\/th><td>sfc_POINT&emsp;<\/td><\/tr><\/table><\/div>"],{"maxWidth":800,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":true,"closeOnClick":true,"className":""},["Bad Frankenhausen","Sondershausen","Wiehe"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addScaleBar","args":[{"maxWidth":100,"metric":true,"imperial":true,"updateWhenIdle":true,"position":"bottomleft"}]},{"method":"addHomeButton","args":[10.871,51.266,11.411,51.369,true,"points_sdf","Zoom to points_sdf","<strong> points_sdf <\/strong>","bottomright"]},{"method":"addLayersControl","args":[["CartoDB.Positron","CartoDB.DarkMatter","OpenStreetMap","Esri.WorldImagery","OpenTopoMap"],"points_sdf",{"collapsed":true,"autoZIndex":true,"position":"topleft"}]},{"method":"addLegend","args":[{"colors":["#4B0055","#009B95","#FDE333"],"labels":["Bad Frankenhausen","Sondershausen","Wiehe"],"na_color":null,"na_label":"NA","opacity":1,"position":"topright","type":"factor","title":"points_sdf","extra":null,"layerId":null,"className":"info legend","group":"points_sdf"}]}],"limits":{"lat":[51.266,51.369],"lng":[10.871,11.411]},"fitBounds":[51.266,10.871,51.369,11.411,[]]},"evals":[],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (\n      function(el, x, data) {\n      // get the leaflet map\n      var map = this; //HTMLWidgets.find('#' + el.id);\n      // we need a new div element because we have to handle\n      // the mouseover output separately\n      // debugger;\n      function addElement () {\n      // generate new div Element\n      var newDiv = $(document.createElement('div'));\n      // append at end of leaflet htmlwidget container\n      $(el).append(newDiv);\n      //provide ID and style\n      newDiv.addClass('lnlt');\n      newDiv.css({\n      'position': 'relative',\n      'bottomleft':  '0px',\n      'background-color': 'rgba(255, 255, 255, 0.7)',\n      'box-shadow': '0 0 2px #bbb',\n      'background-clip': 'padding-box',\n      'margin': '0',\n      'padding-left': '5px',\n      'color': '#333',\n      'font': '9px/1.5 \"Helvetica Neue\", Arial, Helvetica, sans-serif',\n      'z-index': '700',\n      });\n      return newDiv;\n      }\n\n\n      // check for already existing lnlt class to not duplicate\n      var lnlt = $(el).find('.lnlt');\n\n      if(!lnlt.length) {\n      lnlt = addElement();\n\n      // grab the special div we generated in the beginning\n      // and put the mousmove output there\n\n      map.on('mousemove', function (e) {\n      if (e.originalEvent.ctrlKey) {\n      if (document.querySelector('.lnlt') === null) lnlt = addElement();\n      lnlt.text(\n                           ' lon: ' + (e.latlng.lng).toFixed(5) +\n                           ' | lat: ' + (e.latlng.lat).toFixed(5) +\n                           ' | zoom: ' + map.getZoom() +\n                           ' | x: ' + L.CRS.EPSG3857.project(e.latlng).x.toFixed(0) +\n                           ' | y: ' + L.CRS.EPSG3857.project(e.latlng).y.toFixed(0) +\n                           ' | epsg: 3857 ' +\n                           ' | proj4: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs ');\n      } else {\n      if (document.querySelector('.lnlt') === null) lnlt = addElement();\n      lnlt.text(\n                      ' lon: ' + (e.latlng.lng).toFixed(5) +\n                      ' | lat: ' + (e.latlng.lat).toFixed(5) +\n                      ' | zoom: ' + map.getZoom() + ' ');\n      }\n      });\n\n      // remove the lnlt div when mouse leaves map\n      map.on('mouseout', function (e) {\n      var strip = document.querySelector('.lnlt');\n      if( strip !==null) strip.remove();\n      });\n\n      };\n\n      //$(el).keypress(67, function(e) {\n      map.on('preclick', function(e) {\n      if (e.originalEvent.ctrlKey) {\n      if (document.querySelector('.lnlt') === null) lnlt = addElement();\n      lnlt.text(\n                      ' lon: ' + (e.latlng.lng).toFixed(5) +\n                      ' | lat: ' + (e.latlng.lat).toFixed(5) +\n                      ' | zoom: ' + map.getZoom() + ' ');\n      var txt = document.querySelector('.lnlt').textContent;\n      console.log(txt);\n      //txt.innerText.focus();\n      //txt.select();\n      setClipboardText('\"' + txt + '\"');\n      }\n      });\n\n      }\n      ).call(this.getMap(), el, x, data);\n}","data":null},{"code":"function(el, x, data) {\n  return (function(el,x,data){\n           var map = this;\n\n           map.on('keypress', function(e) {\n               console.log(e.originalEvent.code);\n               var key = e.originalEvent.code;\n               if (key === 'KeyE') {\n                   var bb = this.getBounds();\n                   var txt = JSON.stringify(bb);\n                   console.log(txt);\n\n                   setClipboardText('\\'' + txt + '\\'');\n               }\n           })\n        }).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
 </div>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># Load required packages</span></span>
+<span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://ggplot2.tidyverse.org'>ggplot2</a></span><span class='op'>)</span></span>
+<span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://r-spatial.github.io/sf/'>sf</a></span><span class='op'>)</span></span>
+<span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'>maps</span><span class='op'>)</span></span>
+<span></span>
+<span><span class='co'># Load and plot world map data - oder world ohne Landesangabe</span></span>
+<span><span class='va'>world</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/map_data.html'>map_data</a></span><span class='op'>(</span><span class='st'>"world2"</span>, <span class='st'>"Germany"</span><span class='op'>)</span></span>
+<span></span>
+<span><span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span>data <span class='op'>=</span> <span class='va'>world</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x <span class='op'>=</span> <span class='va'>long</span>, y <span class='op'>=</span> <span class='va'>lat</span>, group <span class='op'>=</span> <span class='va'>group</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span></span>
+<span><span class='co'># Farbe aendern  </span></span>
+<span>  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_polygon.html'>geom_polygon</a></span><span class='op'>(</span>fill <span class='op'>=</span> <span class='st'>"grey"</span>, color <span class='op'>=</span> <span class='st'>"grey1"</span><span class='op'>)</span> <span class='op'>+</span></span>
+<span><span class='co'># aendert die Plotgröße  </span></span>
+<span>  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/coord_fixed.html'>coord_fixed</a></span><span class='op'>(</span>ratio <span class='op'>=</span> <span class='fl'>1</span><span class='op'>)</span> <span class='op'>+</span></span>
+<span><span class='fu'><a href='https://ggplot2.tidyverse.org/reference/labs.html'>labs</a></span><span class='op'>(</span>title <span class='op'>=</span> <span class='st'>"Deutschland"</span><span class='op'>)</span></span></code></pre>
+</div>
+<p><img src="testdaten_files/figure-html5/unnamed-chunk-3-1.png" width="624" /></p>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/sinhrks/ggfortify'>ggfortify</a></span><span class='op'>)</span></span>
+<span><span class='va'>de</span> <span class='op'>&lt;-</span>  <span class='fu'><a href='https://rdrr.io/pkg/maps/man/map.html'>map</a></span><span class='op'>(</span><span class='st'>'world2'</span>, <span class='st'>'Germany'</span>, plot <span class='op'>=</span> <span class='cn'>FALSE</span>, fill <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span></span>
+<span><span class='fu'><a href='https://ggplot2.tidyverse.org/reference/autoplot.html'>autoplot</a></span><span class='op'>(</span><span class='va'>de</span><span class='op'>)</span></span></code></pre>
+</div>
+<p><img src="testdaten_files/figure-html5/unnamed-chunk-4-1.png" width="624" /></p>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>de1</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/autoplot.html'>autoplot</a></span><span class='op'>(</span><span class='va'>de</span>, geom <span class='op'>=</span> <span class='st'>'polygon'</span>, fill <span class='op'>=</span> <span class='st'>'subregion'</span><span class='op'>)</span> <span class='op'>+</span> </span>
+<span>  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/theme.html'>theme</a></span><span class='op'>(</span>legend.position<span class='op'>=</span><span class='st'>"none"</span><span class='op'>)</span></span>
+<span><span class='va'>de1</span></span></code></pre>
+</div>
+<p><img src="testdaten_files/figure-html5/unnamed-chunk-5-1.png" width="624" /></p>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>cities</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/get.html'>get</a></span><span class='op'>(</span><span class='st'>'world.cities'</span><span class='op'>)</span></span>
+<span><span class='va'>cities</span> <span class='op'>&lt;-</span> <span class='va'>cities</span><span class='op'>[</span><span class='va'>cities</span><span class='op'>$</span><span class='va'>country.etc</span> <span class='op'>==</span> <span class='st'>'Germany'</span>, <span class='op'>]</span></span>
+<span><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>cities</span><span class='op'>)</span></span></code></pre>
+</div>
+<pre><code>      name country.etc    pop   lat  long capital
+139 Aachen     Germany 273472 50.77  6.09       0
+145  Aalen     Germany  67188 48.85 10.09       0
+320 Achern     Germany  24637 48.63  8.08       0
+322  Achim     Germany  30109 53.04  9.01       0
+590  Ahaus     Germany  38293 52.09  7.01       0
+597  Ahlen     Germany  55265 51.77  7.88       0</code></pre>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># Städte und Inseln </span></span>
+<span><span class='va'>de1</span> <span class='op'>+</span> <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_point.html'>geom_point</a></span><span class='op'>(</span>data <span class='op'>=</span> <span class='va'>cities</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x <span class='op'>=</span> <span class='va'>long</span>, y <span class='op'>=</span> <span class='va'>lat</span><span class='op'>)</span>,</span>
+<span>               colour <span class='op'>=</span> <span class='st'>'blue'</span>, size <span class='op'>=</span> <span class='fl'>0.1</span><span class='op'>)</span></span></code></pre>
+</div>
+<p><img src="testdaten_files/figure-html5/unnamed-chunk-7-1.png" width="624" /></p>
+</div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
