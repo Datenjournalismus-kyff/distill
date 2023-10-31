@@ -5,10 +5,16 @@ description: |
 output_dir: "docs"
 navbar:
   right:
-    - text: "Home"
-      href: index.html
+    - text: "Start"
+      href: start.html
     - text: "About"
       href: about.html
     - text: "Artikel"
       href: artikel.html
+      menu:
+        - text: "Daten"
+          href: daten.html
+        - text: "R"
+          href: rdaten.html
+          
 output: distill::distill_article
