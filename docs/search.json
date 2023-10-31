@@ -9,6 +9,20 @@
       "last_modified": "2023-10-30T19:06:56+01:00"
     },
     {
+      "path": "artikel.html",
+      "title": "Untitled",
+      "description": "A new article created using the Distill format.\n",
+      "author": [
+        {
+          "name": "M. Hense",
+          "url": {}
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
+      "last_modified": "2023-10-31T08:33:25+01:00"
+    },
+    {
       "path": "index.html",
       "title": "Datenjournalismus",
       "author": [],
