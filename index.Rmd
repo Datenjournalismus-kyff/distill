@@ -1,5 +1,5 @@
 ---
-title: "Datenjournalismus"
+title: "Datenvisualisierung mit R"
 image: "images/IMG_4214.jpg"
 links:
   - label: '<i class="fab fa-linkedin"></i> LinkedIn'
