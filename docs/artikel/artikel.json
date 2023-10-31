@@ -1,0 +1,14 @@
+[
+  {
+    "path": "artikel/2023-10-31-testdaten/",
+    "title": "Testdaten",
+    "description": {},
+    "author": [],
+    "date": "2022-07-25",
+    "categories": [],
+    "contents": "\nTest\n\n\n\n",
+    "preview": {},
+    "last_modified": "2023-10-31T10:20:17+01:00",
+    "input_file": "testdaten.knit.md"
+  }
+]

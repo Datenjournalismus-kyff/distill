@@ -6,28 +6,21 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\nin Bearbeitung\n\n\n\n",
-      "last_modified": "2023-10-31T09:51:46+01:00"
+      "last_modified": "2023-10-31T10:18:07+01:00"
     },
     {
       "path": "artikel.html",
-      "title": "Untitled",
-      "description": "A new article created using the Distill format.\n",
-      "author": [
-        {
-          "name": "M. Hense",
-          "url": {}
-        }
-      ],
-      "date": "`r Sys.Date()`",
-      "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
-      "last_modified": "2023-10-31T09:51:47+01:00"
+      "title": "Artikel",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2023-10-31T10:18:07+01:00"
     },
     {
       "path": "index.html",
       "title": "Datenvisualisierung mit R",
       "author": [],
       "contents": "\n\n          \n          \n          Datenverarbeitung und Programmierung in R\n          \n          \n          Start\n          About\n          \n          \n          Artikel\n           \n          ▾\n          \n          \n          Daten\n          R\n          \n          \n          ☰\n          \n          \n      \n        \n          \n            \n              \n            \n              Datenvisualisierung mit R\n            \n            \n              \n                \n                    \n                      \n                         LinkedIn\n                      \n                    \n                  \n                                    \n                    \n                      \n                         Twitter\n                      \n                    \n                  \n                                    \n                    \n                      \n                         GitHub\n                      \n                    \n                  \n                                    \n                    \n                      \n                         Email\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            \n            Bio\n            \n            \n            Education\n            \n            \n            Experience\n            \n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Datenvisualisierung mit R\n            \n            \n              \n                \n                                    \n                    \n                       LinkedIn\n                    \n                  \n                                    \n                    \n                       Twitter\n                    \n                  \n                                    \n                    \n                       GitHub\n                    \n                  \n                                    \n                    \n                       Email\n                    \n                  \n                                  \n              \n            \n            \n              \n              Bio\n              \n              \n              Education\n              \n              \n              Experience\n              \n            \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2023-10-31T09:51:48+01:00"
+      "last_modified": "2023-10-31T10:18:09+01:00"
     },
     {
       "path": "start.html",
@@ -41,8 +34,8 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\nContents\nÜbersicht\n\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\nÜbersicht\n\n\n\n",
-      "last_modified": "2023-10-31T09:51:49+01:00"
+      "last_modified": "2023-10-31T10:18:10+01:00"
     }
   ],
-  "collections": []
+  "collections": ["artikel/artikel.json"]
 }

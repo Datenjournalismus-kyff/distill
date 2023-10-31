@@ -1,0 +1,9 @@
+---
+title: Testdaten
+date: 2022-07-25
+output: 
+  distill::distill_article:
+    self_contained: false        
+---
+
+Test
