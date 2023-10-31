@@ -14,6 +14,6 @@
     "contents": "\n\n\nlibrary(tidyverse)\nlibrary(leaflet)\n\nleaflet() %>%\n  addTiles() %>%\n  setView(lat = 51.356, \n          lng = 11.101,  \n          zoom = 10)\n\n\n\n\n\n\n",
     "preview": {},
     "last_modified": "2023-10-31T11:06:13+01:00",
-    "input_file": "testdaten.knit.md"
+    "input_file": {}
   }
 ]
