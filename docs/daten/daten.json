@@ -5,7 +5,7 @@
     "description": "A short description of the post.",
     "author": [
       {
-        "name": "Diana Hense",
+        "name": "M. Hense",
         "url": {}
       }
     ],
@@ -13,7 +13,7 @@
     "categories": [],
     "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
     "preview": {},
-    "last_modified": "2023-10-31T10:31:32+01:00",
-    "input_file": {}
+    "last_modified": "2023-11-01T23:06:18+01:00",
+    "input_file": "testdaten-2.knit.md"
   }
 ]
