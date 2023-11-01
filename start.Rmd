@@ -1,7 +1,7 @@
 ---
 title: "Willkommen"
 description: |
-  A new article created using the Distill format.
+  Diese Website wurde komplett mit RStudio und Distill erstellt
 author:
   - name: M. Hense 
     url: 
@@ -19,9 +19,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web. 
 
-Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
 
 # Übersicht
 
