@@ -40,12 +40,12 @@ autoplot(df, p = p, colour = 'red', size = 10)
 library(mapview) 
 
 # Create example data of points 
-lng = c(11.101,10.871 , 11.411) 
-lat = c(51.356, 51.369, 51.266) 
-names = c("Bad Frankenhausen", "Sondershausen", "Wiehe") 
+lng <- c(11.101,10.871 , 11.411) 
+lat <- c(51.356, 51.369, 51.266) 
+names <- c("Bad Frankenhausen", "Sondershausen", "Wiehe") 
 
 # Create a data frame with the point data 
-points_df = data.frame(lng, lat, names) 
+points_df <- data.frame(lng, lat, names) 
 
 # Convert the data frame to a spatial points data frame 
 points_sdf = sf::st_as_sf(points_df, 
