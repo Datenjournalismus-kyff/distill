@@ -1,7 +1,7 @@
 [
   {
     "path": "python/2023-11-01-grundlagen/",
-    "title": "Testdaten",
+    "title": "Test",
     "description": "A short description of the post.",
     "author": [
       {
@@ -13,7 +13,7 @@
     "categories": [],
     "contents": "\nGrundlagen\n\n\n\n",
     "preview": {},
-    "last_modified": "2023-11-01T23:06:58+01:00",
-    "input_file": {}
+    "last_modified": "2024-02-24T16:20:10+01:00",
+    "input_file": "grundlagen.knit.md"
   }
 ]
